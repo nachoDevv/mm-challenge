@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'HelveticaExtBd';
+    src: url('../fonts/HelveticaNowforMonks-ExtXBd.ttf')
+  }
+
+.container {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    overflow-y: hidden;
+}
+
+.section {
+    width: 100%;
+    margin: auto;
+    height: 990px;
+}
+
+.text {
+    font-size: 120px;
+    text-align: left;
+    max-width: 1200px;
+    font-family: 'HelveticaExtBd';
+    line-height: 1.0
+}
