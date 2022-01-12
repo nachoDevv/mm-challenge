@@ -6,11 +6,11 @@ import Logo from './Logo'
 export default function Section({ children, sectionColor, iconColor }) {
     return (
     <div className={styles.section} style={{backgroundColor: sectionColor}}>
+        <Logo fill={iconColor}/>
         <Grid 
-            style={{margin: 0, top: '10%', position: 'relative'}}
+            style={{margin: 0, top: 20, position: 'relative'}}
             justifyContent='center'
             alignItems='center'>
-            <Logo fill={iconColor}/>
             <Grid item>
                 {children}
             </Grid>

@@ -3,23 +3,46 @@
     src: url('../fonts/HelveticaNowforMonks-ExtXBd.ttf')
   }
 
+@font-face {
+    font-family: 'HelveticaTextMd';
+    src: url('../fonts/HelveticaNowforMonks-TextMd.ttf')
+}
+
 .container {
     width: 100%;
     margin-right: 0;
     margin-left: 0;
-    overflow-y: hidden;
+    height: inherit;
+    overflow-y: auto;
+    flex-direction: row;
 }
 
 .section {
     width: 100%;
     margin: auto;
-    height: 990px;
+    height: 1080px;
+    display: block;
+}
+
+.adviceText {
+    font-size: 40px;
+    text-align: left;
+    max-width: 1200px;
+    font-family: 'HelveticaTextMd';
+    line-height: 1.2;
 }
 
 .text {
-    font-size: 120px;
+    font-size: 104px;
     text-align: left;
-    max-width: 1200px;
+    max-width: 1350px;
     font-family: 'HelveticaExtBd';
-    line-height: 1.0
+    line-height: 1.0;
+}
+
+.vector {
+    height: 11;
+    width: 255;
+    padding-bottom: 60px;
+    padding-left: 65px;
 }
